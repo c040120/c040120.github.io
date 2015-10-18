@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#map-canvas{
+	top:13%;
+	height:86%;
+	width:100%;
+	position:relative;
+
+}
+#list-container{
+	position: fixed;
+	left: 10px;
+	top: 30%;
+	height: 300px;
+	width: 200px;
+	padding: 2px;
+	border: 1px solid #999;
+	background: #fff;
+	opacity: 0.9;
+}
+#title{
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding: 5px;
+	font-size:15px;
+	background:black;
+	width: auto;
+	height: auto;
+	line-height:15px;
+	position: relative;
+	word-wrap:break-word;
+	color:white;
+}
+#toggle-view {
+	position: relative;
+	width:100%;
+	height:277px;
+	border-bottom: 1px solid #999;
+	background: #fff;
+	opacity: 0.9;	
+	overflow: scroll;
+}
+.storeName {
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding: 5px;
+	font-size:13px;
+	border-bottom:1px solid #ccc;
+	width: auto;
+	height: auto;
+	line-height:15px;
+	position: relative;
+	word-wrap:break-word;
+}
+.infoStoreName{
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	font-size:12px;
+	width: auto;
+	height: auto;
+	line-height:15px;
+	position: relative;
+}
+.storeName:hover{
+	color:white;
+    transition: background .3s linear;
+    background: black;
+         -o-transition: background .3s linear;
+       -moz-transition: background .3s linear;
+    -webkit-transition: background .3s linear;
+}
+
+.add {
+	margin:5px 0;
+	display:none;
+}	
+
+#panel {
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding: 0;
+	font-size:16px;
+	border-bottom:1px solid #ccc;
+	width: 199px;
+	height: 60px;
+	line-height:32px;
+}
+

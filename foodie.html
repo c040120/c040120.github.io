@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Ziqi Li | FoodMap</title>
+  	<link rel="stylesheet" href="css/foodieMap.css"/>
+  	<link rel="stylesheet" href="css/index.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript"
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFJjniUpQEhmXOjtI0XM7c8a7p9ZrTCQQ&signed_in=true">
+    </script>
+	<script type="text/javascript" src="js/foodMap.js"></script>
+	<script type="text/javascript" src="js/foodList.js"></script>
+	<script type="text/javascript" src="js/markerclusterer.js"></script>
+  	</head>
+  	<body>
+  		<div id='top'><a href="index.html" id='name-logo'>Ziqi Li</a>
+  		<div id='social-icons-container'>
+  			<a href="https://www.facebook.com/ziqi.li.9"><img class="social-icon" src="social-icons/facebook_bl.png" alt="Facebook" /></a>
+  			<a href="https://www.linkedin.com/pub/ziqi-li/80/24b/6b4"><img class="social-icon" src="social-icons/linkedin_bl.png" alt="LinkedIn" /></a>
+			<a href="https://twitter.com/Way_of_Ziqi"><img class="social-icon" src="social-icons/twitter_bl.png" alt="Twitter" /></a>
+			<a href="https://github.com/c040120"><img class="social-icon" src="social-icons/github.png" alt="Github"></a>
+  		</div>
+  		<div id='menuHolder'>
+  			<div onclick="location.href = 'index.html';" class='menuItem'>Home
+  			</div>
+  			<div onclick="location.href = 'ziqi_resume.pdf';" class='menuItem'>Resume</div>
+  			<!--<div onclick="location.href = 'academics.html';" class='menuItem'>Academics</div>-->
+  			<div onclick="location.href = 'foodie.html';" class='menuItem'>FoodMap
+  			<div id='botline'></div>
+  			</div>
+  		</div>
+  		</div>
+		<div id="map-canvas"></div>
+		<div id="list-container">
+			<div id="title">My finished list:</div>
+			<div id="toggle-view"></div>
+		</div>
+  	</body>
+</html>
