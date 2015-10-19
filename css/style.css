@@ -600,7 +600,8 @@ header h1 {
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 25px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    line-height:25px;
   }
   .cd-timeline-content p {
     font-size: 15px;
