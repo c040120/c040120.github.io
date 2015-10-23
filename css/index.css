@@ -109,7 +109,7 @@ html, body{
 	left: 50%;
 	float:left;
 	margin-left: -30px;
-	bottom: 120px;
+	bottom: 100px;
 	
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
@@ -250,7 +250,7 @@ html, body{
 	background-color:black;
 	}
 	#explore{
-	font-size:18px;
+	font-size:16px;
 	}
 	.social-icon{
 	width:32px;
